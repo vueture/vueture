@@ -1,0 +1,25 @@
+{
+  "name": "lucevi",
+  "version": "0.0.0",
+  "description": "A Vue framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucevi/lucevi.git"
+  },
+  "keywords": [
+    "vue",
+    "framework",
+    "lucevi",
+    "frontend"
+  ],
+  "author": "Vivid Websolutions <info@vivid-websolutions.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucevi/lucevi/issues"
+  },
+  "homepage": "https://github.com/lucevi/lucevi#readme"
+}
