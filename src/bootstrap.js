@@ -76,8 +76,8 @@ Vue.router = router;
  * ============
  *
  * Lucevi comes with SASS out of the box.
- * If you want to use LESS or Stylus, install the desired Webpack loader.
- * Require the entrypoint
+ * If you want to use a different CSS preprocessor, install the desired Webpack loader.
+ * Require the entrypoint here.
  */
 require('./assets/sass/app.scss');
 

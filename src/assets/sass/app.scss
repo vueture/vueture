@@ -1,12 +1,48 @@
-/*
- *  Config
- */
-@import "config/variables";
+// Main Stylesheet
+//
+// Blucify comes with SASS out of the box.
+// If you want to use a different CSS preprocessor, install the desired Webpack loader.
+// Require the entrypoint in bootstrap.js.
+//
+// Weight: -2
+//
+// Styleguide 1
 
-/*
- *  Base
- */
+
+// Config
+//
+// Require variables, mixins and functions here.
+//
+// Weight: -1
+//
+// Styleguide config
+@import "config/variables";
+@import "config/mixins";
+@import "config/functions";
+
+
+// Base
+//
+// Require global styling here.
+//
+// Styleguide base
 @import "base/base";
 @import "base/fonts";
 
+
+// UI
+//
+// Require UI styling here.
+//
+// Styleguide ui
+@import "ui/buttons";
+@import "ui/formfields";
+@import "ui/icons";
+
+
+// Vendor
+//
+// Require vendor packages, like node modules, here.
+//
+// Styleguide vendor
 @import "~normalize.css";

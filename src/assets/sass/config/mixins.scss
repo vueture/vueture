@@ -1,0 +1,37 @@
+// Mixins
+//
+// Define custom mixins here.
+//
+// Styleguide config.mixins
+
+
+// has (BEM element helper)
+//
+// For more information about BEM, visit http://getbem.com/
+//
+// Usage: https://gist.github.com/vivid-web/8f7a23fe8b172b4238b6#file-bem-scss
+//
+// $element (String) - Element string
+//
+// Styleguide config.mixins.has
+@mixin has($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+
+
+// variant (BEM element helper)
+//
+// For more information about BEM, visit http://getbem.com/
+//
+// Usage: https://gist.github.com/vivid-web/8f7a23fe8b172b4238b6#file-bem-scss
+//
+// $element (String) - Element string
+//
+// Styleguide config.mixins.variant
+@mixin variant($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}

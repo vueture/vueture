@@ -1,0 +1,25 @@
+// Functions
+//
+// Define custom functions here.
+//
+// Styleguide config.functions
+
+// zindex
+//
+// Returns correct z-index based on index of layout array.
+//
+// $list (Array) - The list to find the current z-index in
+// $element (String) - The name of the current element, must be in the $list
+//
+// Styleguide config.functions.zindex
+
+@function zindex($list, $element) {
+	$zIndex: index($list, $element);
+
+	@if $zIndex {
+		@return $zIndex;
+	}
+
+	@warn 'There is no item "#{$element}" in this list; choose one of: #{$list}';
+	@return null;
+}

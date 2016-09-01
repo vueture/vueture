@@ -1,2 +1,24 @@
-// Sizing
+// Variables
+//
+// Define custom variables here
+//
+// $rem_size - Root font-size.
+// $site_width - max-width for ```.container```.
+// $color_default - Default color.
+// $layout - List of layout items. Used for determing the correct layout for elements.
+// $center_container - boolean to center ```.container```.
+//
+// Styleguide config.variables
+
+// Sizes
 $rem_size: 16px;
+$site_width: 1280px;
+
+// Colors
+$color_default: '#000';
+
+// Layout
+$layout: 'container', 'header', 'content';
+
+// Misc.
+$center_container: true;

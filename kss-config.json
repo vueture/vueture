@@ -1,0 +1,17 @@
+{
+  "title"        : "Blucify Styleguide",
+  "mask"         : "*.scss",
+  "placeholder"  : "[modifier]",
+
+"//": "relative to this file.",
+  "builder"      : "node_modules/michelangelo/kss_styleguide/custom-template/",
+  "source"       : "src/",
+  "destination"  : "styleguide/",
+
+"//": "relative to source.",
+  "homepage"     : "../kss-homepage.md",
+
+"//": "relative to the generated style guide.",
+  "css": [],
+  "js" : []
+}

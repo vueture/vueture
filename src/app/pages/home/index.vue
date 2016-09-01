@@ -1,20 +1,14 @@
 <style>
+  @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700);
+
   html, body {
-    background-color: #F5F5F5;
+    background-color: #FFF3E0;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
   }
 
-  body {
+  * {
     box-sizing: border-box;
-  }
-  body * {
-    box-sizing: border-box;
-  }
-
-  code, kbd, pre, samp {
-    font-family: monospace, monospace;
-    font-size: 1rem;
   }
 
   .content {
@@ -29,7 +23,7 @@
   }
 
   .title {
-    color: #1B5E20;
+    color: #FF9800;
     display: block;
     font-size: 5rem;
     font-weight: 100;
@@ -37,6 +31,7 @@
   }
 
   .subtitle {
+    color: #424242;
     display: block;
     font-size: 2.5rem;
     font-weight: 200;
