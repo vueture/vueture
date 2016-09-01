@@ -7,7 +7,7 @@
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
-    "styleguide": "./node_modules/.bin/kss --source 'src/assets/sass/' --destination styleguide --css 'kss/app.css'"
+    "styleguide": "./node_modules/.bin/kss --config kss-config.json"
   },
   "repository": {
     "type": "git",
@@ -58,6 +58,7 @@
     "http-proxy-middleware": "^0.17.1",
     "json-loader": "^0.5.4",
     "kss": "^3.0.0-beta.14",
+    "michelangelo": "^0.5.0",
     "node-sass": "^3.8.0",
     "ora": "^0.3.0",
     "sass-loader": "^4.0.0",

@@ -1,1 +1,23 @@
+// .container
+//
+// Wraps content based on ```$site_width``` and centers the element when ```$center_container``` is set to true.
+//
+// Styleguide 2.1
+.container {
+  width: 100%;
+  max-width: 1280px;
 
+  @if $center_container {
+    margin: 0 auto;
+  }
+}
+
+// .fullscreen
+//
+// Creates a fullscreen element. When the content is longer than the viewport the element will scale to fit content.
+//
+// Styleguide 2.2
+.fullscreen {
+  width: 100%;
+  min-height: 100vh;
+}

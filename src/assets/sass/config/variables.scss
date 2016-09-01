@@ -1,2 +1,13 @@
-// Sizing
+// Variables
+//
+// Variables used along the app.
+//
+// $rem_size - Root font-size.
+// $size_width - max-width for ```.container```.
+// $center_container - boolean to center ```.container```.
+//
+// Styleguide 1.1
+
 $rem_size: 16px;
+$site_width: 1280px;
+$center_container: true;
