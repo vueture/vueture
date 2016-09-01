@@ -1,12 +1,38 @@
-/*
- *  Config
+/* ============
+ * Main Stylesheet
+ * ============
+ *
+ * Lucevi comes with SASS out of the box.
+ * If you want to use a different CSS preprocessor, install the desired Webpack loader.
+ * Require the entrypoint in bootstrap.js.
+ */
+
+
+/* ============
+ * Config
+ * ============
+ *
+ * Require variables, mixins and functions here.
  */
 @import "config/variables";
+@import "config/mixins";
+@import "config/functions";
 
-/*
- *  Base
+
+/* ============
+ * Base
+ * ============
+ *
+ * Require global styling here.
  */
 @import "base/base";
 @import "base/fonts";
 
+
+/* ============
+ * Vendor
+ * ============
+ *
+ * Require vendor packages, like node modules, here.
+ */
 @import "~normalize.css";

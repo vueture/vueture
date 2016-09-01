@@ -1,0 +1,32 @@
+/* ============
+ * Mixins
+ * ============
+ *
+ * Define custom mixins here
+ */
+
+/*
+ * BEM element helper
+ *
+ * For more information about BEM, visit http://getbem.com/
+ *
+ * Usage: https://gist.github.com/vivid-web/8f7a23fe8b172b4238b6#file-bem-scss
+ */
+@mixin has($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+
+/*
+ * BEM modifier helper
+ *
+ * For more information about BEM, visit http://getbem.com/
+ *
+ * Usage: https://gist.github.com/vivid-web/8f7a23fe8b172b4238b6#file-bem-scss
+ */
+@mixin variant($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}
