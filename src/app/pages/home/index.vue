@@ -1,5 +1,5 @@
 <style lang="scss">
-  // Page: Home
+  // Home
   //
   // Home component
   //
