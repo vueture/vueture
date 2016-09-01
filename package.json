@@ -7,7 +7,7 @@
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
-    "styleguide": "./node_modules/.bin/kss --source 'src/.' --destination styleguide --css 'kss/app.css' --mask '*.css|*.less|*.sass|*.scss|*.styl|*.stylus|*.vue' --homepage '../kss-homepage.md' --title 'Blucify Styleguide'"
+    "styleguide": "./node_modules/.bin/kss --config 'kss-config.json'"
   },
   "repository": {
     "type": "git",
