@@ -47,7 +47,7 @@
   <div class="content">
     <div class="content-inner">
       <h1 class="title">
-        Blucify
+        Vueture
       </h1>
       <small class="subtitle">
         Make something awesome!

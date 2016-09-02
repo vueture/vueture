@@ -1,7 +1,7 @@
 {
-  "name": "blucify",
+  "name": "vueture",
   "version": "0.0.0",
-  "description": "The Blucify framework",
+  "description": "The Vueture framework",
   "main": "src/main.js",
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -11,20 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blucify/blucify.git"
+    "url": "git+https://github.com/vueture/vueture.git"
   },
   "keywords": [
     "vue",
     "framework",
-    "blucify",
+    "vueture",
     "frontend"
   ],
   "author": "Vivid Websolutions <info@vivid-websolutions.nl>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/blucify/blucify/issues"
+    "url": "https://github.com/vueture/vueture/issues"
   },
-  "homepage": "https://github.com/blucify/blucify#readme",
+  "homepage": "https://github.com/vueture/vueture#readme",
   "dependencies": {
     "normalize.css": "^4.2.0",
     "vue": "^2.0.0-rc.2",

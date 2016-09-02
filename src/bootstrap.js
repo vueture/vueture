@@ -75,7 +75,7 @@ Vue.router = router;
  * Styling
  * ============
  *
- * Blucify comes with SASS out of the box.
+ * Vueture comes with SASS out of the box.
  * If you want to use a different CSS preprocessor,
  * install the desired Webpack loader.
  * Require the entrypoint here.
