@@ -1,9 +1,9 @@
 <style lang="scss">
   // Home
   //
-  // Home component
+  // Home page
   //
-  // Styleguide pages.home
+  // Style guide: pages
   @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700);
 
   html, body {
@@ -23,7 +23,7 @@
     justify-content: center;
   }
 
-  .content__inner {
+  .content-inner {
     display: block;
   }
 
@@ -45,9 +45,9 @@
 </style>
 <template>
   <div class="content">
-    <div class="content__inner">
+    <div class="content-inner">
       <h1 class="title">
-        Lucevi
+        Blucify
       </h1>
       <small class="subtitle">
         Make something awesome!
