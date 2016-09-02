@@ -1,5 +1,5 @@
 {
-  "title": "'Blucify Styleguide",
+  "title": "'Blucify Styleguide'",
   "homepage": "'../kss-homepage.md'",
   "source": "src/.",
   "destination": "styleguide",

@@ -1,7 +1,7 @@
 {
-  "name": "lucevi",
+  "name": "blucify",
   "version": "0.0.0",
-  "description": "The Lucevi framework",
+  "description": "The Blucify framework",
   "main": "src/main.js",
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -11,20 +11,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucevi/lucevi.git"
+    "url": "git+https://github.com/blucify/blucify.git"
   },
   "keywords": [
     "vue",
     "framework",
-    "lucevi",
+    "blucify",
     "frontend"
   ],
   "author": "Vivid Websolutions <info@vivid-websolutions.nl>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lucevi/lucevi/issues"
+    "url": "https://github.com/blucify/blucify/issues"
   },
-  "homepage": "https://github.com/lucevi/lucevi#readme",
+  "homepage": "https://github.com/blucify/blucify#readme",
   "dependencies": {
     "normalize.css": "^4.2.0",
     "vue": "^2.0.0-rc.2",
