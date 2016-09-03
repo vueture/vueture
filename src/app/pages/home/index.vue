@@ -31,6 +31,9 @@
     color: #FF9800;
     display: block;
     font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 0;
     font-weight: 100;
     text-align: center;
   }
