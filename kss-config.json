@@ -1,8 +1,8 @@
 {
-  "title": "'Vueture Styleguide'",
-  "homepage": "'../kss-homepage.md'",
+  "title": "Vueture Styleguide",
+  "homepage": "../kss-homepage.md",
   "source": "src/.",
   "destination": "styleguide",
-  "css": "'kss/app.css'",
-  "mask": "'*.css|*.less|*.sass|*.scss|*.styl|*.stylus|*.vue'"
+  "css": "kss/app.css",
+  "mask": "*.css|*.less|*.sass|*.scss|*.styl|*.stylus|*.vue"
 }
