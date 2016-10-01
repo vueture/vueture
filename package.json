@@ -27,7 +27,7 @@
   "homepage": "https://github.com/vueture/vueture#readme",
   "dependencies": {
     "normalize.css": "^4.2.0",
-    "vue": "^2.0.0-rc.6",
+    "vue": "^2.0.1",
     "vue-resource": "^0.9.3",
     "vue-router": "^2.0.0-rc.3",
     "vuex": "^2.0.0-rc.5",
