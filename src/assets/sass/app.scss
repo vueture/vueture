@@ -1,38 +1,8 @@
-// Main Stylesheet
-//
-// Vueture comes with SASS out of the box.
-// If you want to use a different CSS preprocessor, install the desired Webpack loader.
-// Require the entry point in bootstrap.js.
-//
-// Weight: -2
-//
-// Style guide: main
-
-
-// Config
-//
-// Require variables, mixins and functions here.
-//
-// Weight: -1
-//
-// Style guide: config
 @import "config/variables";
 @import "config/mixins";
 @import "config/functions";
 
-
-// Base
-//
-// Require global styling here.
-//
-// Style guide: base
 @import "base/main";
 @import "base/fonts";
 
-
-// Vendor
-//
-// Require vendor packages, like node modules, here.
-//
-// Style guide: vendor
 @import "~normalize.css";

@@ -21,20 +21,27 @@ Vue.config.debug = process.env.NODE_ENV !== 'production';
 
 
 /* ============
- * Vue Resource
+ * Axios
  * ============
  *
- * Vue Resource provides services for making web requests and handle
- * responses using a XMLHttpRequest or JSONP.
+ * Promise based HTTP client for the browser and node.js.
+ * Because Vue Resource has been retired, Axios will now been used
+ * to perform AJAX-requests.
  *
- * https://github.com/vuejs/vue-resource/tree/master/docs
+ * https://github.com/mzabriskie/axios
  */
-import VueResource from 'vue-resource';
+import Axios from 'axios';
 
-Vue.use(VueResource);
+Axios.defaults.baseURL = process.env.API_LOCATION;
+Axios.defaults.headers.common.Accept = 'application/json';
 
-Vue.http.headers.common.Accept = 'application/json';
-Vue.http.options.root = process.env.API_LOCATION;
+// Bind Axios to Vue.
+Vue.$http = Axios;
+Object.defineProperty(Vue.prototype, '$http', {
+  get() {
+    return Axios;
+  },
+});
 
 
 /* ============
@@ -46,7 +53,7 @@ Vue.http.options.root = process.env.API_LOCATION;
  * https://github.com/vuejs/vuex-router-sync/blob/master/README.md
  */
 import VuexRouterSync from 'vuex-router-sync';
-import store from './app/store';
+import store from './store';
 
 
 /* ============
@@ -59,7 +66,7 @@ import store from './app/store';
  * http://router.vuejs.org/en/index.html
  */
 import VueRouter from 'vue-router';
-import routes from './app/routes';
+import routes from './routes';
 
 Vue.use(VueRouter);
 

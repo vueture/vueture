@@ -1,12 +1,9 @@
 <style lang="scss">
-  // Home
-  //
-  // Home page
-  //
-  // Style guide: pages
   @import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700);
 
   html, body {
+    padding: 0;
+    margin: 0;
     background-color: #FFF3E0;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
@@ -46,6 +43,7 @@
     text-align: center;
   }
 </style>
+
 <template>
   <div class="content">
     <div class="content-inner">
