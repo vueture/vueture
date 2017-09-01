@@ -15,6 +15,11 @@
 
   export default {
     /**
+     * The name of the application.
+     */
+    name: 'vueture',
+
+    /**
      * The Vuex store
      */
     store,

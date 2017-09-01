@@ -64,10 +64,12 @@ var webpackConfig = merge(baseWebpackConfig, {
         // more options:
         // https://github.com/kangax/html-minifier#options-quick-reference
       },
-// necessary to consistently work with multiple chunks via CommonsChunkPlugin
+      // necessary to consistently work with multiple chunks via CommonsChunkPlugin
       chunksSortMode: 'dependency'
     }),
-// split vendor js into its own file
+    // keep module.id stable when vender modules does not change
+    new webpack.HashedModuleIdsPlugin(),
+    // split vendor js into its own file
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor',
       minChunks: function (module, count) {

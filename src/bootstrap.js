@@ -17,8 +17,6 @@
  */
 import Vue from 'vue';
 
-Vue.config.debug = process.env.NODE_ENV !== 'production';
-
 
 /* ============
  * Axios
@@ -32,7 +30,6 @@ Vue.config.debug = process.env.NODE_ENV !== 'production';
  */
 import Axios from 'axios';
 
-Axios.defaults.baseURL = process.env.API_LOCATION;
 Axios.defaults.headers.common.Accept = 'application/json';
 
 // Bind Axios to Vue.
