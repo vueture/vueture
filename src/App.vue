@@ -8,10 +8,10 @@
    * Entry Point
    * ============
    *
-   * The entry point of the application
+   * The entry point of the application.
    */
   import store from './store';
-  import { router } from './bootstrap';
+  import { router } from './plugins/vue-router';
 
   export default {
     /**
@@ -20,12 +20,12 @@
     name: 'vueture',
 
     /**
-     * The Vuex store
+     * The Vuex store.
      */
     store,
 
     /**
-     * The router
+     * The router.
      */
     router,
   };

@@ -2,11 +2,28 @@
  * Main File
  * ============
  *
- * Will initialize the application
+ * Will initialize the application.
  */
 import Vue from 'vue';
+
+/* ============
+ * Plugins
+ * ============
+ *
+ * Import and bootstrap the plugins.
+ */
+import './plugins/axios';
+import './plugins/vue-router';
+import './plugins/vuex';
+import './plugins/vuex-router-sync';
+
+/* ============
+ * Main App
+ * ============
+ *
+ * Last but not least, we import the main application.
+ */
 import App from './App';
-import './bootstrap';
 
 Vue.config.productionTip = false;
 
