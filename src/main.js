@@ -12,9 +12,9 @@ import Vue from 'vue';
  *
  * Import and bootstrap the plugins.
  */
+import './plugins/vuex';
 import './plugins/axios';
 import './plugins/vue-router';
-import './plugins/vuex';
 import './plugins/vuex-router-sync';
 
 /* ============

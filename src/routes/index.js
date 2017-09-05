@@ -9,7 +9,7 @@ export default [
   {
     path: '/home',
     name: 'home.index',
-    component: () => import('@/pages/home/index'),
+    component: () => import('@/pages/home/Index'),
   },
 
   {
